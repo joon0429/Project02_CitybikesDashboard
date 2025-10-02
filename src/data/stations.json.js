@@ -4,7 +4,7 @@ async function json(url) {
     if (!response.ok) throw new Error(`fetch failed: ${response.status}`);
     return await response.json();
   }
-   
+  
   // Variable to store the returned json from the API
   const pgh_stations = await json(`https://api.citybik.es/v2/networks/pittsburgh`);
   

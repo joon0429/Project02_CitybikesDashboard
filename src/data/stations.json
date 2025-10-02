@@ -1,0 +1,422 @@
+{
+  'S 27th St & Sidney St. (Southside Works)': {
+    name: 'S 27th St & Sidney St. (Southside Works)',
+    free_bikes: 5,
+    empty_slots: 18,
+    normal_bikes: 2,
+    ebikes: 3
+  },
+  'Ross St & Fourth Ave': {
+    name: 'Ross St & Fourth Ave',
+    free_bikes: 6,
+    empty_slots: 9,
+    normal_bikes: 1,
+    ebikes: 5
+  },
+  'N Braddock Ave & Hamilton Ave': {
+    name: 'N Braddock Ave & Hamilton Ave',
+    free_bikes: 6,
+    empty_slots: 9,
+    normal_bikes: 0,
+    ebikes: 6
+  },
+  "O'Hara St & University Place": {
+    name: "O'Hara St & University Place",
+    free_bikes: 21,
+    empty_slots: 1,
+    normal_bikes: 7,
+    ebikes: 14
+  },
+  'Eliza Furnace Trail & Swineburne St': {
+    name: 'Eliza Furnace Trail & Swineburne St',
+    free_bikes: 11,
+    empty_slots: 4,
+    normal_bikes: 6,
+    ebikes: 5
+  },
+  'Forbes Ave at TCS Hall (CMU Campus)': {
+    name: 'Forbes Ave at TCS Hall (CMU Campus)',
+    free_bikes: 6,
+    empty_slots: 11,
+    normal_bikes: 5,
+    ebikes: 1
+  },
+  'North Shore Trail & Fort Duquesne Bridge': {
+    name: 'North Shore Trail & Fort Duquesne Bridge',
+    free_bikes: 9,
+    empty_slots: 14,
+    normal_bikes: 7,
+    ebikes: 2
+  },
+  '17th St & Penn Ave': {
+    name: '17th St & Penn Ave',
+    free_bikes: 10,
+    empty_slots: 9,
+    normal_bikes: 2,
+    ebikes: 8
+  },
+  'Boulevard of the Allies & Parkview Ave': {
+    name: 'Boulevard of the Allies & Parkview Ave',
+    free_bikes: 5,
+    empty_slots: 18,
+    normal_bikes: 1,
+    ebikes: 4
+  },
+  'Penn Ave & S Whitfield St': {
+    name: 'Penn Ave & S Whitfield St',
+    free_bikes: 3,
+    empty_slots: 12,
+    normal_bikes: 2,
+    ebikes: 1
+  },
+  'Centre Ave & Addison St': {
+    name: 'Centre Ave & Addison St',
+    free_bikes: 5,
+    empty_slots: 10,
+    normal_bikes: 5,
+    ebikes: 0
+  },
+  'N Dithridge St & Centre Ave': {
+    name: 'N Dithridge St & Centre Ave',
+    free_bikes: 4,
+    empty_slots: 13,
+    normal_bikes: 0,
+    ebikes: 4
+  },
+  'Penn Ave & Putnam St (Bakery Square)': {
+    name: 'Penn Ave & Putnam St (Bakery Square)',
+    free_bikes: 7,
+    empty_slots: 12,
+    normal_bikes: 2,
+    ebikes: 5
+  },
+  'S 22nd St & Sidney St': {
+    name: 'S 22nd St & Sidney St',
+    free_bikes: 7,
+    empty_slots: 12,
+    normal_bikes: 2,
+    ebikes: 5
+  },
+  'Burns White Center at 3 Crossings': {
+    name: 'Burns White Center at 3 Crossings',
+    free_bikes: 10,
+    empty_slots: 5,
+    normal_bikes: 7,
+    ebikes: 3
+  },
+  'Eliza St & Lytle St': {
+    name: 'Eliza St & Lytle St',
+    free_bikes: 5,
+    empty_slots: 14,
+    normal_bikes: 5,
+    ebikes: 0
+  },
+  'Penn Ave & 7th St': {
+    name: 'Penn Ave & 7th St',
+    free_bikes: 8,
+    empty_slots: 11,
+    normal_bikes: 2,
+    ebikes: 6
+  },
+  'Liberty Ave & Stanwix St': {
+    name: 'Liberty Ave & Stanwix St',
+    free_bikes: 10,
+    empty_slots: 5,
+    normal_bikes: 1,
+    ebikes: 9
+  },
+  '42nd St & Butler St': {
+    name: '42nd St & Butler St',
+    free_bikes: 7,
+    empty_slots: 8,
+    normal_bikes: 1,
+    ebikes: 6
+  },
+  'W Ohio St & Brighton Rd': {
+    name: 'W Ohio St & Brighton Rd',
+    free_bikes: 11,
+    empty_slots: 7,
+    normal_bikes: 6,
+    ebikes: 5
+  },
+  'Centre Ave & S Millvale Ave': {
+    name: 'Centre Ave & S Millvale Ave',
+    free_bikes: 4,
+    empty_slots: 15,
+    normal_bikes: 3,
+    ebikes: 1
+  },
+  'Rosetta St & N Aiken Ave': {
+    name: 'Rosetta St & N Aiken Ave',
+    free_bikes: 4,
+    empty_slots: 11,
+    normal_bikes: 3,
+    ebikes: 1
+  },
+  'Allequippa St & Darragh St': {
+    name: 'Allequippa St & Darragh St',
+    free_bikes: 1,
+    empty_slots: 22,
+    normal_bikes: 1,
+    ebikes: 0
+  },
+  'W North Ave & Federal St': {
+    name: 'W North Ave & Federal St',
+    free_bikes: 7,
+    empty_slots: 11,
+    normal_bikes: 7,
+    ebikes: 0
+  },
+  'Fifth Ave & S Bouquet St': {
+    name: 'Fifth Ave & S Bouquet St',
+    free_bikes: 9,
+    empty_slots: 14,
+    normal_bikes: 4,
+    ebikes: 5
+  },
+  '21st St & Penn Ave': {
+    name: '21st St & Penn Ave',
+    free_bikes: 5,
+    empty_slots: 14,
+    normal_bikes: 3,
+    ebikes: 2
+  },
+  'Brighton Rd & Pennsylvania Ave': {
+    name: 'Brighton Rd & Pennsylvania Ave',
+    free_bikes: 6,
+    empty_slots: 13,
+    normal_bikes: 2,
+    ebikes: 4
+  },
+  'Penn Ave & 33rd St': {
+    name: 'Penn Ave & 33rd St',
+    free_bikes: 5,
+    empty_slots: 6,
+    normal_bikes: 1,
+    ebikes: 4
+  },
+  'Bedford Ave & Memory Ln': {
+    name: 'Bedford Ave & Memory Ln',
+    free_bikes: 2,
+    empty_slots: 16,
+    normal_bikes: 2,
+    ebikes: 0
+  },
+  'Allegheny Station': {
+    name: 'Allegheny Station',
+    free_bikes: 6,
+    empty_slots: 13,
+    normal_bikes: 1,
+    ebikes: 5
+  },
+  Glasshouse: {
+    name: 'Glasshouse',
+    free_bikes: 2,
+    empty_slots: 13,
+    normal_bikes: 1,
+    ebikes: 1
+  },
+  'Second Ave & Tecumseh St': {
+    name: 'Second Ave & Tecumseh St',
+    free_bikes: 6,
+    empty_slots: 12,
+    normal_bikes: 4,
+    ebikes: 2
+  },
+  'Coltart Ave & Forbes Ave': {
+    name: 'Coltart Ave & Forbes Ave',
+    free_bikes: 11,
+    empty_slots: 8,
+    normal_bikes: 8,
+    ebikes: 3
+  },
+  'W Station Square Dr & Bessemer Court': {
+    name: 'W Station Square Dr & Bessemer Court',
+    free_bikes: 5,
+    empty_slots: 10,
+    normal_bikes: 2,
+    ebikes: 3
+  },
+  'Pierce St & Summerlea St': {
+    name: 'Pierce St & Summerlea St',
+    free_bikes: 0,
+    empty_slots: 19,
+    normal_bikes: 0,
+    ebikes: 0
+  },
+  'Technology Dr & Bates St': {
+    name: 'Technology Dr & Bates St',
+    free_bikes: 9,
+    empty_slots: 14,
+    normal_bikes: 4,
+    ebikes: 5
+  },
+  'Bennett St & N Homewood Ave': {
+    name: 'Bennett St & N Homewood Ave',
+    free_bikes: 5,
+    empty_slots: 10,
+    normal_bikes: 3,
+    ebikes: 2
+  },
+  'S Bouquet Ave & Sennott St': {
+    name: 'S Bouquet Ave & Sennott St',
+    free_bikes: 21,
+    empty_slots: 2,
+    normal_bikes: 13,
+    ebikes: 8
+  },
+  'Centre Ave & Heldman St': {
+    name: 'Centre Ave & Heldman St',
+    free_bikes: 6,
+    empty_slots: 13,
+    normal_bikes: 6,
+    ebikes: 0
+  },
+  'Shady Ave & Ellsworth Ave': {
+    name: 'Shady Ave & Ellsworth Ave',
+    free_bikes: 6,
+    empty_slots: 9,
+    normal_bikes: 5,
+    ebikes: 1
+  },
+  'Hamilton Ave & Fifth Ave': {
+    name: 'Hamilton Ave & Fifth Ave',
+    free_bikes: 0,
+    empty_slots: 14,
+    normal_bikes: 0,
+    ebikes: 0
+  },
+  'Liberty Ave & Gross St': {
+    name: 'Liberty Ave & Gross St',
+    free_bikes: 1,
+    empty_slots: 14,
+    normal_bikes: 1,
+    ebikes: 0
+  },
+  'Filmore St & S Bellefield Ave': {
+    name: 'Filmore St & S Bellefield Ave',
+    free_bikes: 23,
+    empty_slots: 4,
+    normal_bikes: 6,
+    ebikes: 17
+  },
+  'Taylor St & Liberty Ave': {
+    name: 'Taylor St & Liberty Ave',
+    free_bikes: 2,
+    empty_slots: 12,
+    normal_bikes: 1,
+    ebikes: 1
+  },
+  'Schenley Dr & Schenley Dr Ext': {
+    name: 'Schenley Dr & Schenley Dr Ext',
+    free_bikes: 7,
+    empty_slots: 11,
+    normal_bikes: 2,
+    ebikes: 5
+  },
+  'S 12th St & E Carson St': {
+    name: 'S 12th St & E Carson St',
+    free_bikes: 10,
+    empty_slots: 9,
+    normal_bikes: 3,
+    ebikes: 7
+  },
+  'Atwood St & Bates St': {
+    name: 'Atwood St & Bates St',
+    free_bikes: 10,
+    empty_slots: 9,
+    normal_bikes: 1,
+    ebikes: 9
+  },
+  'Tioga St & N Homewood Ave': {
+    name: 'Tioga St & N Homewood Ave',
+    free_bikes: 3,
+    empty_slots: 12,
+    normal_bikes: 1,
+    ebikes: 2
+  },
+  'South Side Trail & S 4th St': {
+    name: 'South Side Trail & S 4th St',
+    free_bikes: 5,
+    empty_slots: 10,
+    normal_bikes: 3,
+    ebikes: 2
+  },
+  'Forbes Ave & Market Square': {
+    name: 'Forbes Ave & Market Square',
+    free_bikes: 8,
+    empty_slots: 11,
+    normal_bikes: 4,
+    ebikes: 4
+  },
+  '10th St & Penn Ave': {
+    name: '10th St & Penn Ave',
+    free_bikes: 7,
+    empty_slots: 8,
+    normal_bikes: 1,
+    ebikes: 6
+  },
+  'Butler St & 36th St': {
+    name: 'Butler St & 36th St',
+    free_bikes: 1,
+    empty_slots: 14,
+    normal_bikes: 0,
+    ebikes: 1
+  },
+  'First Ave & B St': {
+    name: 'First Ave & B St',
+    free_bikes: 6,
+    empty_slots: 9,
+    normal_bikes: 3,
+    ebikes: 3
+  },
+  'S Negley Ave & Centre Ave': {
+    name: 'S Negley Ave & Centre Ave',
+    free_bikes: 1,
+    empty_slots: 14,
+    normal_bikes: 0,
+    ebikes: 1
+  },
+  'Ellsworth Ave & N Neville St': {
+    name: 'Ellsworth Ave & N Neville St',
+    free_bikes: 8,
+    empty_slots: 7,
+    normal_bikes: 6,
+    ebikes: 2
+  },
+  'Penn Ave & S Pacific Ave': {
+    name: 'Penn Ave & S Pacific Ave',
+    free_bikes: 3,
+    empty_slots: 12,
+    normal_bikes: 3,
+    ebikes: 0
+  },
+  'Ivy St & Walnut St': {
+    name: 'Ivy St & Walnut St',
+    free_bikes: 2,
+    empty_slots: 13,
+    normal_bikes: 2,
+    ebikes: 0
+  },
+  'Wilkinsburg Park & Ride': {
+    name: 'Wilkinsburg Park & Ride',
+    free_bikes: 10,
+    empty_slots: 8,
+    normal_bikes: 6,
+    ebikes: 4
+  },
+  '52nd St & Butler St': {
+    name: '52nd St & Butler St',
+    free_bikes: 6,
+    empty_slots: 13,
+    normal_bikes: 4,
+    ebikes: 2
+  },
+  'Zulema St & Coltart Ave': {
+    name: 'Zulema St & Coltart Ave',
+    free_bikes: 7,
+    empty_slots: 12,
+    normal_bikes: 6,
+    ebikes: 1
+  }
+}

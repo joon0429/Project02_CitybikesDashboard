@@ -2,7 +2,7 @@
 <!-- HINT: Reference the documentation given in the instructions! -->
 ---
 toc: false
-theme: [light, wide, alt, cotton]
+theme: [dark, wide, alt, cotton]
 ---
 
 
@@ -19,13 +19,13 @@ theme: [light, wide, alt, cotton]
 ```js
 // loads the network data from the data loader
 // this returns an array!
-const network_info = // your code here
+const network_info = await FileAttachment("data/network.json").json();
 ```
 
 ```js
 // loads the stations data from the data loader
 // this returns a Map!
-const stations = // your code here
+const stations = await FileAttachment("data/stations.json").json();
 ```
 
 
@@ -36,6 +36,21 @@ const stations = // your code here
 <!-- HINT: Reference the .set() method documentation for getting data from a Map in JS linked in the instructions. ! -->
 
 <div class="grid grid-cols-2">
+    <div class="card" style ="text-align: center;">
+        <h3>Total Stations</h3>
+        <p><b>${stations.size}</b></p>
+    </div>
+    <div class="card" style ="text-align: center;">
+        <h3>Network</h3>
+        <p><b>${network_info.name}</b> in <b> ${network_info.city}</p>
+    </div>
+    <div class="card" style ="text-align: center;">
+        <h3>Location</h3>
+        <p>
+            Lat: <b>${network_info.latitude}</b>,
+            Long: <b>${network_info.longitude}</b>
+        </p>
+    </div>
     <div class="card" style="text-align: center;">See the <a href="/bike-types.html"><b>bike types dashboard page</b></a> for information on bike type availability at each of the stations in the network.</div>
     <div class="card" style="text-align: center;">See the <a href="/station-demand.html"><b>station demand visualization page</b></a> for information on the demand of the stations in the network.</b>.</div>
 </div>

@@ -29,6 +29,7 @@ function parse_network(data){
   // stores the output of the parsed data
   const network_info = parse_network(pgh_network);
   console.log(network_info);
+  display(network_info);
   
   // used for getting the output quickly in the terminal, equivalent to CURL
   process.stdout.write(JSON.stringify(network_info));

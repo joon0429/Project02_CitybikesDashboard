@@ -5,23 +5,25 @@ export function station_demand_plot(network_data, station_data, {width} = {}) {
     // if needed, variables can be created here
 
     return Plot.plot({
-        title: // CHALLENGE 6.1 - Your code here
+        title: `Station Demand Visualization for ${network_data.name}`,
         marks: [
-            // CHALLENGE 6.2
-            // Your code here
+            Plot.barY(station_data, {
+                x: "name",
+                y: "empty_slots",
+                sort: {x: "y"},
+                tip: true
+            })
         ],
         x: {
-            // CHALLENGE 6.3
-            // Your code here
+            label: "Station Name",
+            tickRotate: -45
         },
         y: {
-            // CHALLENGE 6.4
-            // Your code here
+            label: "Empty Slots (Demand)"
         },
-        // CHALLENGE 6.5
-        marginLeft: // value,
-        width: //value,
-        height: //value,
-        marginBottom: //value
+        marginLeft: 80,
+        width: width,
+        height: 400,
+        marginBottom: 100   
     });
 }
