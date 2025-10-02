@@ -42,7 +42,7 @@ const stations_map = await FileAttachment("./data/stations.json").json();
 const selected_station = view(Inputs.select(stations_map, {label: "Select a Station"}));
 ```
 
- 
+
 
 <!-- PROVIDED code: Displays the visualization you made in bike-type-plot.js.-->
 ```js
