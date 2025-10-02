@@ -3,7 +3,7 @@ async function json(url) {
     const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) throw new Error(`fetch failed: ${response.status}`);
     return await response.json();
-  }
+}
   
 // Variable to store the returned json from the API
 const pgh_network = await json(`https://api.citybik.es/v2/networks/pittsburgh`);
@@ -27,9 +27,8 @@ function parse_network(data){
     return Object.fromEntries(network_data);
 }
   
-  // stores the output of the parsed data
-  const network_info = parse_network(pgh_network);
-  display(network_info);
-  
-  // used for getting the output quickly in the terminal, equivalent to CURL
-  process.stdout.write(JSON.stringify(network_info));
+// stores the output of the parsed data
+const network_info = parse_network(pgh_network);
+
+// used for getting the output quickly in the terminal, equivalent to CURL
+process.stdout.write(JSON.stringify(network_info));
