@@ -7,6 +7,7 @@ async function json(url) {
   
 // Variable to store the returned json from the API
 const pgh_network = await json(`https://api.citybik.es/v2/networks/pittsburgh`);
+console.log(pgh_network);
   
 // Function to parse the data and place it into a dictionary
 function parse_network(data){
@@ -28,7 +29,6 @@ function parse_network(data){
   
   // stores the output of the parsed data
   const network_info = parse_network(pgh_network);
-  console.log(network_info);
   display(network_info);
   
   // used for getting the output quickly in the terminal, equivalent to CURL

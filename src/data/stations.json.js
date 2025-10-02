@@ -46,7 +46,6 @@ async function json(url) {
   
   // stations stores the output of the parsed data
   const stations = parse_stations(pgh_stations);
-  console.log(stations);
   display(stations);
   
   // used for getting the output quickly in the terminal, equivalent to CURL

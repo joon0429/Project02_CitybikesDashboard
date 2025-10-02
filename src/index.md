@@ -42,8 +42,8 @@ const stations = await FileAttachment("data/stations.json").json();
     </div>
     <div class="card" style ="text-align: center;">
         <h3>Network</h3>
-        <p><b>${network_info.name}</b> in <b> ${network_info.city}</p>
-    </div>
+        <p><b>${network_info.name}</b> in <b> ${network_info.city}</b></p>
+    </div>,
     <div class="card" style ="text-align: center;">
         <h3>Location</h3>
         <p>
@@ -52,5 +52,5 @@ const stations = await FileAttachment("data/stations.json").json();
         </p>
     </div>
     <div class="card" style="text-align: center;">See the <a href="/bike-types.html"><b>bike types dashboard page</b></a> for information on bike type availability at each of the stations in the network.</div>
-    <div class="card" style="text-align: center;">See the <a href="/station-demand.html"><b>station demand visualization page</b></a> for information on the demand of the stations in the network.</b>.</div>
-</div>
+    <div class="card" style="text-align: center;">See the <a href="/station-demand.html"><b>station demand visualization page</b></a> for information on the demand of the stations in the network.</div>
+<div>
