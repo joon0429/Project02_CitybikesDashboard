@@ -11,6 +11,7 @@ export function station_demand_plot(network_data, station_data, {width} = {}) {
                 x: "name",
                 y: "empty_slots",
                 sort: {x: "y"},
+                tip: true
             })
         ],
         x: {

@@ -8,8 +8,8 @@ export function bike_type_plot(data, {width} = {}) {
         title: `Bike Availability at ${data.name}`,
         marks: [
             Plot.barY([
-                {type: "Normal Bikes", count: data.empty.normal_bikes},
-                {type: "E-bikes", count: data.empty.ebikes}
+                {type: "Normal Bikes", count: data["normal_bikes"]},
+                {type: "E-bikes", count: data["ebikes"] }
             ], {
                 x: "type",
                 y: "count",
@@ -22,8 +22,8 @@ export function bike_type_plot(data, {width} = {}) {
         },
         y: {
             label: "Number of Bikes",
-            ticks: d3.range(0, data.extra.slots + 1),
-            domain: [0, data.extra.slots],
+            ticks: d3.range(0, data["normal_bikes"] + data["ebikes"] + data["empty_slots"] + 1),
+            domain: [0, data["normal_bikes"] + data["ebikes"] + data["empty_slots"] ],
             grid: true
         },
         color: {
