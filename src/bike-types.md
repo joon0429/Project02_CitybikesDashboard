@@ -39,26 +39,12 @@ const stations_map = await FileAttachment("./data/stations.json").json();
 // selector dropdown for stations
 // do not use multiple: true for the selector
 // this data of the selected station is stored in select_station and passed into bike-type-plot.js component for visualization!
-const selected_station = view(Inputs.select(stations_map, {label: "Select a Station"}));
+const selected_station = view(Inputs.select(stations_map, {value: stations_map[0], label: "Select a Station"}));
+console.log(selected_station);
 ```
-
-
 
 <!-- PROVIDED code: Displays the visualization you made in bike-type-plot.js.-->
 ```js
 const selected_station_data = stations_map[selected_station]
+console.log(selected_station_data + "hey");
 ```
-
-```js
-const free_bikes_available = selected_station_data["free_bikes"];
-```
-
-<div class="grid grid-cols-1">
-  <div class="card" style="display: flex; justify-content: center; align-items: center;">
-  <!-- conditionally displays a message or a visualization depending on bike availability at selected station -->
-    ${free_bikes_available === 0 
-      ? html`<h2 style="color: red;"> 🚫 There are no bikes available currently at this station. 🚫</h2>`
-      : bike_type_plot(selected_station_data)}
-
-  </div>
-</div>

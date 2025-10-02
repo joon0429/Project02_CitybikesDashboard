@@ -11,7 +11,6 @@ export function station_demand_plot(network_data, station_data, {width} = {}) {
                 x: "name",
                 y: "empty_slots",
                 sort: {x: "y"},
-                tip: true
             })
         ],
         x: {
@@ -19,7 +18,7 @@ export function station_demand_plot(network_data, station_data, {width} = {}) {
             tickRotate: -45
         },
         y: {
-            label: "Empty Slots (Demand)"
+            label: "Demand (by Empty Slots Available)"
         },
         marginLeft: 80,
         width: width,
