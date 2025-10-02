@@ -18,6 +18,12 @@ async function json(url) {
           const station_info = new Map();
   
           // CHALLENGE 2.1
+          station_info.set('name', station.name);
+          station_info.set('free_bikes', station.free_bikes);
+          station_info.set('empty_slots', station.empty_slots);
+          station_info.set('normal_bikes', station.extra.normal_bikes);
+          station_info.set('ebikes', station.extra.ebikes);
+
           // Your code here
           // Add information_field:quantity to the inner dictionary using .set() 
   
@@ -40,6 +46,8 @@ async function json(url) {
   
   // stations stores the output of the parsed data
   const stations = parse_stations(pgh_stations);
+  console.log(stations);
+  display(stations);
   
   // used for getting the output quickly in the terminal, equivalent to CURL
   process.stdout.write(JSON.stringify(stations));
